@@ -39,9 +39,14 @@ http://localhost:5500
 json
 
 {
-  "ollama_api": "http://<IP>:11434/api/generate",
-  "model": "mistral",
-  "minecraft_path": "/path/to/server"
+  "log_file": "logs/latest.log",
+  "api_provider": "deepseek",
+  "openai_api_key": "<YOUR_OPENAI_KEY>",
+  "deepseek_api_key": "<YOUR_DEEPSEEK_KEY>",
+  "deepseek_api_url": "https://api.deepseek.com/v1",
+  "openwebui_api": "http://127.0.0.1:5000/api/v1/generate",
+  "ollama_api": "http://127.0.0.1:11434/v1/chat/completions",
+  "model_name": "gpt-4"
 }
 ```
 🗺 TODO
