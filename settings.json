@@ -1,0 +1,10 @@
+## settings.json (пример)
+```json
+{
+  "log_file": "logs/latest.log",
+  "api_provider": "ollama",
+  "ollama_api": "http://192.168.1.100:11434/v1/chat/completions",
+  "openwebui_api": "http://192.168.1.100:3000/api/v1/generate",
+  "model_name": "mistral"
+}
+```
