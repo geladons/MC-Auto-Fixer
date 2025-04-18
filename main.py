@@ -59,7 +59,7 @@ if __name__ == '__main__':
     # Запускаем мониторинг в фоне
     threading.Thread(target=run_background_monitor, daemon=True).start()
     # Запускаем веб-сервер настроек и контроллера
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5500)
 ```
 
 ---

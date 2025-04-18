@@ -1,10 +1,11 @@
-## settings.json (пример)
-```json
+## settings.json
 {
   "log_file": "logs/latest.log",
-  "api_provider": "ollama",
-  "ollama_api": "http://192.168.1.100:11434/v1/chat/completions",
-  "openwebui_api": "http://192.168.1.100:3000/api/v1/generate",
-  "model_name": "mistral"
+  "api_provider": "deepseek",
+  "openai_api_key": "<YOUR_OPENAI_KEY>",
+  "deepseek_api_key": "<YOUR_DEEPSEEK_KEY>",
+  "deepseek_api_url": "https://api.deepseek.com/v1",
+  "openwebui_api": "http://127.0.0.1:5000/api/v1/generate",
+  "ollama_api": "http://127.0.0.1:11434/v1/chat/completions",
+  "model_name": "gpt-4"
 }
-```

@@ -24,8 +24,13 @@
 git clone https://github.com/geladons/MC-Auto-Fixer.git
 cd MC-Auto-Fixer
 pip install -r requirements.txt
+# Убедись, что Ollama/OpenWebUI работают на своих портах:
+#   OpenWebUI → http://<ip>:5000
+#   Ollama →      http://<ip>:11434
+# запускаем UI MC Auto Fixer:
 python main.py
-Перейди в браузере: http://localhost:5000
+# открываем в браузере:
+http://localhost:5500
 
 🛠 Настройки
 Создай settings.json или настрой через UI:
